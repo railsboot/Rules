@@ -185,6 +185,7 @@ dns:
     - "+.services.googleapis.cn"
     - "+.xn--ngstr-lra8j.com"
     - "+.push.apple.com"
+    - "geosite:cn,geosite:category-games@cn,geosite: private"
     - 5ddd.com
     - time1.cloud.tencent.com
   default-nameserver:
