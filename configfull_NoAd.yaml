@@ -43,11 +43,7 @@ proxy-providers:
 global-ua: clash.meta
 
 # 全局配置
-port: 7890
-socks-port: 7891
-redir-port: 7892
-mixed-port: 7893
-tproxy-port: 7894
+mixed-port: 7890
 ipv6: true
 allow-lan: true
 unified-delay: true
