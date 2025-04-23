@@ -38,15 +38,19 @@ DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,pinduoduo.com
 DOMAIN-SUFFIX,douyin.com
 DOMAIN-SUFFIX,douyinmall.com
-DOMAIN-SUFFIX,ixigua.com DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,ixigua.com
+DOMAIN-SUFFIX,byteimg.com
 DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,weibo.com 
 DOMAIN,weibo.cn
 DOMAIN,sinaimg.cn
-DOMAIN,login.sina.com.cn 
-DOMAIN-SUFFIX,xianyu.com DOMAIN,xianyu.m.taobao.com
-DOMAIN-SUFFIX,mogu.com DOMAIN-SUFFIX,xiaohongshu.com DOMAIN-SUFFIX,xhsimg.com
+DOMAIN,login.sina.com.cn
+DOMAIN-SUFFIX,xianyu.com
+DOMAIN,xianyu.m.taobao.com
+DOMAIN-SUFFIX,mogu.com
+DOMAIN-SUFFIX,xiaohongshu.com
+DOMAIN-SUFFIX,xhsimg.com
 DOMAIN,music.163.com
-DOMAIN,music.126.net 
+DOMAIN,music.126.net
 DOMAIN,y.qq.com
 DOMAIN,mail.qq.com
