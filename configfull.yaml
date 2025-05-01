@@ -150,7 +150,8 @@ dns:
   nameserver:
     - quic://dns.alidns.com/dns-query
     - https://sm2.doh.pub/dns-query
-
+  nameserver-policy:
+    'www.gstatic.com/generate_204': '119.29.29.29'
 proxies: 
   - name: "🟢 直连"
     type: direct
