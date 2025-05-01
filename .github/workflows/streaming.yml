@@ -2,7 +2,7 @@ name: Sync and Compile Streaming Rules
 
 on:
   schedule:
-    - cron: '0 12 * * *'
+    - cron: '0 1 * * *'  # 每天定时触发
   workflow_dispatch:
 
 permissions:
@@ -36,18 +36,26 @@ jobs:
         for name in streaming_hk streaming_sg streaming_tw streaming_uk; do
           url="https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/rules/Domain/${name}.list"
           raw="rules/Domain/${name}.list"
-          yaml="rules/Domain/${name}.yaml"
           mrs="rules/Domain/${name}.mrs"
 
           echo "Downloading $name..."
           curl -sL "$url" -o "$raw"
 
+          # 检查文件是否为空，若为空则跳过处理
+          if [ ! -s "$raw" ]; then
+            echo "$name list is empty, skipping..."
+            continue
+          fi
+
           echo "Processing $name..."
           # 提取 DOMAIN 和 DOMAIN-SUFFIX 规则，并处理成需要的格式
-          grep -E 'DOMAIN-SUFFIX|DOMAIN' "$raw" | sed -E 's/DOMAIN-SUFFIX,/*./g; s/DOMAIN,//g' > "$yaml"
+          grep -E 'DOMAIN-SUFFIX|DOMAIN' "$raw" | sed -E 's/DOMAIN-SUFFIX,/*./g; s/DOMAIN,//g' > "rules/Domain/${name}-domain.list"
 
-          echo "Generating $mrs..."
-          mihomo convert-ruleset domain yaml "$yaml" "$mrs"
+          # 生成 MRS 文件
+          mihomo convert-ruleset domain yaml "rules/Domain/${name}-domain.list" "$mrs"
+
+          # 删除中间产物的 YAML 文件
+          rm -f "rules/Domain/${name}-domain.list"
 
         done
 
