@@ -19,7 +19,6 @@ DOMAIN-SUFFIX,ols-ww100-cp.akamaized.net
 DOMAIN-SUFFIX,litv.tv
 #Friday影音（台湾远传电讯的）
 DOMAIN-SUFFIX,friday.tw
-DOMAIN-KEYWORD,friday
 DOMAIN-SUFFIX,cwb.gov.tw
 DOMAIN-SUFFIX,cwb.gov.tw
 DOMAIN-SUFFIX,infinity-c12.youboranqs01.com
@@ -29,7 +28,6 @@ DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,ftv.com.tw
 DOMAIN-SUFFIX,4gtv.tv
 DOMAIN-SUFFIX,hinet.net
-DOMAIN-KEYWORD,4gtv
 DOMAIN-SUFFIX,onead.com.tw
 # 台湾好
 DOMAIN-SUFFIX,skyking.com.tw
