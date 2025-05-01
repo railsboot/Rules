@@ -1,0 +1,62 @@
+name: Sync and Compile Streaming Rules
+
+on:
+  schedule:
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  compile_streaming_rules:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout the repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Set up Git user
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+
+    - name: Install mihomo
+      run: |
+        version=$(curl -sL https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/version.txt)
+        curl -sL "https://github.com/MetaCubeX/mihomo/releases/download/Prerelease-Alpha/mihomo-linux-amd64-${version}.gz" | \
+          gunzip -c > /usr/local/bin/mihomo && chmod +x /usr/local/bin/mihomo
+
+    - name: Fetch and Process Streaming Rules
+      run: |
+        mkdir -p rules/Domain
+
+        for name in streaming_hk streaming_sg streaming_tw streaming_uk; do
+          url="https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/rules/Domain/${name}.list"
+          raw="rules/Domain/${name}.list"
+          domain="rules/Domain/${name}-domain.list"
+          yaml="rules/Domain/${name}.yaml"
+          mrs="rules/Domain/${name}.mrs"
+
+          echo "Downloading $name..."
+          curl -sL "$url" -o "$raw"
+
+          echo "Processing $name..."
+          # 提取 DOMAIN 和 DOMAIN-SUFFIX 规则，并处理成需要的格式
+          grep -E 'DOMAIN-SUFFIX|DOMAIN' "$raw" | sed -E 's/DOMAIN-SUFFIX,/*./g; s/DOMAIN,//g' > "$domain"
+
+          echo "Generating $yaml..."
+          echo "payload:" > "$yaml"
+          sort -u "$domain" | awk '{print "  - \047" $0 "\047"}' >> "$yaml"
+
+          echo "Generating $mrs..."
+          mihomo convert-ruleset domain yaml "$yaml" "$mrs"
+
+        done
+
+    - name: Commit and Push Changes
+      run: |
+        git add .
+        git diff-index --quiet HEAD -- || (git commit -m "Updated Streaming rules (streaming_*.list -> *.mrs)" && git push)
