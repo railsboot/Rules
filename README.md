@@ -104,7 +104,7 @@ mihomo使用mrs格式文件，Stash使用yaml格式文件
 
 •iOS
 >
-<img src="https://example.com/image.png" width="300"/>
+<img src="https://raw.githubusercontent.com/Lanlan13-14/Icon-for-webui/refs/heads/main/clashmi.png" width="32"/>
 [ClashMi](https://apps.apple.com/us/app/clash-mi/id6744321968)
 >
 [![Stash](https://raw.githubusercontent.com/Lanlan13-14/Icon-for-webui/refs/heads/main/stash-mini.png)](https://apps.apple.com/app/stash/id1596063349?platform=iphone&l=zh-CN)[Stash](https://apps.apple.com/app/stash/id1596063349?platform=iphone&l=zh-CN)
