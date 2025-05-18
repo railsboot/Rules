@@ -42,10 +42,10 @@ mihomo使用mrs格式文件，Stash使用yaml格式文件
 
 #### Substore部署使用教程，高级玩法请将Substore更新至最新版本，注意更新前请先备份以防止配置丢失
 
-[![Sub-store结合教程](https://raw.githubusercontent.com/Lanlan13-14/Icon-for-webui/refs/heads/main/sub-store-mini.png)](https://github.com/Lanlan13-14/Rules/blob/main/Others/Substore.md)[Sub-store结合教程](https://github.com/Lanlan13-14/Rules/blob/main/Others/Substore.md)
-
-[![Sub-store直达链接](https://raw.githubusercontent.com/Lanlan13-14/Icon-for-webui/refs/heads/main/sub-store-mini.png)](https://github.com/sub-store-org/Sub-Store)[Sub-store直达链接](https://github.com/sub-store-org/Sub-Store)
-
+<a href="https://github.com/Lanlan13-14/Rules/blob/main/Others/Substore.md"><img src="https://raw.githubusercontent.com/Lanlan13-14/Icon-for-webui/refs/heads/main/Sub-store.png" width="32" style="vertical-align:middle;"/> Sub-store结合教程</a>
+>
+<a href="https://github.com/sub-store-org/Sub-Store"><img src="https://raw.githubusercontent.com/Lanlan13-14/Icon-for-webui/refs/heads/main/Sub-store.png" width="32" style="vertical-align:middle;"/> Sub-store直达链接</a>
+>
 若无所需游戏规则，可以向该项目提交请求或者自己抓包获取后给该项目提交请求
 [游戏规则相关内容](https://github.com/FQrabbit/SSTap-Rule)
 
