@@ -111,6 +111,7 @@ mihomo使用mrs格式文件，Stash使用yaml格式文件
 <a href="https://apps.apple.com/app/stash/id1596063349?platform=iphone&l=zh-CN"><img src="https://raw.githubusercontent.com/Lanlan13-14/Icon-for-webui/refs/heads/main/stash.png" width="32" style="vertical-align:middle;"/> Stash</a>
 >
 •Openwrt
+>
 <a href="https://github.com/nikkinikki-org/OpenWrt-nikki"><img src="https://raw.githubusercontent.com/Lanlan13-14/Icon-for-webui/refs/heads/main/nikki.png" width="32" style="vertical-align:middle;"/> Nikki</a>
 >
 <a href="https://github.com/vernesong/OpenClash"><img src="https://raw.githubusercontent.com/Lanlan13-14/Icon-for-webui/refs/heads/main/openclash.png" width="32" style="vertical-align:middle;"/> Openclash</a>
