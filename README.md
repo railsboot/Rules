@@ -99,7 +99,7 @@ mihomo使用mrs格式文件，Stash使用yaml格式文件
 
 •Android
 >
-[![Flclash](https://raw.githubusercontent.com/Lanlan13-14/Icon-for-webui/refs/heads/main/flclash-mini.png)](https://github.com/chen08209/FlClash)[FlClash](https://github.com/chen08209/FlClash)
+<b href="https://github.com/chen08209/FlClash"><img src="https://raw.githubusercontent.com/Lanlan13-14/Icon-for-webui/refs/heads/main/flclash.png" width="32" style="vertical-align:middle;"/> Flclash</b>
 >
 <a href="https://github.com/KaringX/clashmi"><img src="https://raw.githubusercontent.com/Lanlan13-14/Icon-for-webui/refs/heads/main/clashmi.png" width="32" style="vertical-align:middle;"/> ClashMi</a>
 >
