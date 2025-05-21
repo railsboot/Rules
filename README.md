@@ -153,6 +153,7 @@ https://mihomo.haxtop.ggff.net/
 
 •[SSTap](https://github.com/FQrabbit/SSTap-Rule)
 
+•[Kwisma](https://github.com/Kwisma/cf-worker-mihomo)
 
 # Tip
 生活是条双行道，
