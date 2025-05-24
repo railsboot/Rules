@@ -112,14 +112,12 @@ https://mihomo.haxtop.ggff.net/
 >
 <a href="https://apps.apple.com/app/stash/id1596063349?platform=iphone&l=zh-CN"><img src="https://raw.githubusercontent.com/Lanlan13-14/Icon-for-webui/refs/heads/main/stash.png" width="32" style="vertical-align:middle;"/> Stash</a>
 >
-<a href="https://apps.apple.com/us/app/clash-mi/id6744321968"><img src="https://raw.githubusercontent.com/Lanlan13-14/Icon-for-webui/refs/heads/main/clashmi.png" width="32" style="vertical-align:middle;"/> ClashMi</a>
+< href="https://apps.apple.com/us/app/clash-mi/id6744321968"><img src="https://raw.githubusercontent.com/Lanlan13-14/Icon-for-webui/refs/heads/main/clashmi.png" width="32" style="vertical-align:middle;"/> ClashMi</a>
 >
 >
 •HarmonyOS
 >
-<a href="https://github.com/xiaobaigroup/ClashBox">
-  <img src="https://avatars.githubusercontent.com/u/192512939?s=48&v=4" width="32" style="vertical-align:middle; border-radius:30px;"/> ClashBox
-</a>
+<a href="https://github.com/xiaobaigroup/ClashBox"><img src="https://raw.githubusercontent.com/Lanlan13-14/Icon-for-webui/refs/heads/main/clashbox.png" width="32" style="vertical-align:middle;"/> ClashBox</a>  
 >
 >
 •Openwrt
