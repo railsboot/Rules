@@ -117,7 +117,7 @@ https://mihomo.haxtop.ggff.net/
 >
 •HarmonyOS
 >
-<a href="https://github.com/xiaobaigroup/ClashBox"><img src="https://raw.githubusercontent.com/Lanlan13-14/Icon-for-webui/refs/heads/main/nikki.png" width="32" style="vertical-align:middle;"/> ClashBox</a>
+<a href="https://github.com/xiaobaigroup/ClashBox"><img src="https://avatars.githubusercontent.com/u/192512939?s=48&v=4" width="32" style="vertical-align:middle;"/> ClashBox</a>
 >
 >
 •Openwrt
