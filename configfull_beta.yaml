@@ -172,7 +172,7 @@ proxies:
 
 # 策略组
 proxy-groups:
-  - {name: 节点选择, type: select, proxies: [香港节点, 新加坡节点, 日本节点, 台湾节点, 美国节点, 欧洲节点, 全部节点, 自建/家宽节点, 故障转移], icon: "https://pub-8feead0908f649a8b94397f152fb9cba.r2.dev/select.png"}
+  - {name: 节点选择, type: select, proxies: [香港-Select, 香港-Auto, 新加坡-Select, 新加坡-Auto, 日本-Select, 日本-Auto, 台湾-Select, 台湾-Auto, 美国-Select, 美国-Auto, 欧洲-Select, 欧洲-Auto, 全部节点, 自建/家宽-Select, 故障转移], icon: "https://pub-8feead0908f649a8b94397f152fb9cba.r2.dev/select.png"}
 # 功能型代理组默认隐藏 start
   - {name: 🔗 代理, type: select, hidden: true, proxies: [节点选择]}
   - {name: 🚫 拒绝, type: select, hidden: true, proxies: [REJECT]}
@@ -201,8 +201,8 @@ proxy-groups:
   - {name: Apple, type: select, <<: *Direct_first, icon: "https://pub-8feead0908f649a8b94397f152fb9cba.r2.dev/apple.png"}
   - {name: Emby,type: select, <<: *Include_all, include-all: true, icon: "https://pub-8feead0908f649a8b94397f152fb9cba.r2.dev/emby.png"}
   - {name: 哔哩哔哩, type: select, <<: *Direct_first, icon: "https://pub-8feead0908f649a8b94397f152fb9cba.r2.dev/bilibili.png"}
-  - {name: 哔哩东南亚, type: select, proxies: [节点选择, 新加坡节点, 全部节点, 自建/家宽节点, 全球直连], icon: "https://pub-8feead0908f649a8b94397f152fb9cba.r2.dev/bilibilit.png"}
-  - {name: 巴哈姆特, type: select, proxies: [台湾节点], icon: "https://pub-8feead0908f649a8b94397f152fb9cba.r2.dev/bahamut.png"}
+  - {name: 哔哩东南亚, type: select, proxies: [节点选择, 新加坡-Select, 新加坡-Auto, 全部节点, 自建/家宽-Select, 全球直连], icon: "https://pub-8feead0908f649a8b94397f152fb9cba.r2.dev/bilibilit.png"}
+  - {name: 巴哈姆特, type: select, proxies: [台湾-Select, 台湾-Auto], icon: "https://pub-8feead0908f649a8b94397f152fb9cba.r2.dev/bahamut.png"}
   - {name: Spotify, <<: *Proxy_first, icon: "https://pub-8feead0908f649a8b94397f152fb9cba.r2.dev/spotify.png"}
   - {name: 国内媒体, type: select, <<: *Direct_first, icon: "https://pub-8feead0908f649a8b94397f152fb9cba.r2.dev/Chinese_media.png"}
   - {name: Global-TV,type: select, <<: *Include_all, icon: "https://pub-8feead0908f649a8b94397f152fb9cba.r2.dev/global_tv.png"}
