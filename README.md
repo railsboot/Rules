@@ -24,7 +24,7 @@
 > We reserve the right to change or supplement this disclaimer at any time.
 >
 > Once you use and copy any file of this project, you are deemed to have accepted this disclaimer.
->
+
 >[!NOTE]
 > ## 关于Smart策略组相关
 > Smart策略组由于其内核的复杂性，我考虑在其稳定后再加入
