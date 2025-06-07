@@ -24,7 +24,11 @@
 > We reserve the right to change or supplement this disclaimer at any time.
 >
 > Once you use and copy any file of this project, you are deemed to have accepted this disclaimer.
-
+>
+>[!NOTE]
+> ## 关于Smart策略组相关
+> Smart策略组由于其内核的复杂性，我考虑在其稳定后再加入
+>
 - 本项目涉及的文件仅用于资源共享和学习研究，不能保证其合法性，准确性，完整性和有效性，请根据情况自行判断，有Bug建议可以提issue.
 
 - 请勿将本项目的任何内容用于商业或非法目的，否则后果自负.
